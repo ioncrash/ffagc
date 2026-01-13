@@ -14,18 +14,22 @@ RUN apt-get update && \
   gnupg \
   build-essential \
   libpq-dev \
-  libyaml-dev
+  libyaml-dev \
+  libsqlite3-dev && \
+  rm -rf /var/lib/apt/lists/*
 
 # Set up Node.js and Yarn package repositories.
-RUN curl -fsSL https://deb.nodesource.com/setup_18.x | bash -
-RUN curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | apt-key add -
-RUN echo "deb https://dl.yarnpkg.com/debian/ stable main" | tee /etc/apt/sources.list.d/yarn.list
+RUN curl -fsSL https://deb.nodesource.com/gpgkey/nodesource-repo.gpg.key | gpg --dearmor -o /usr/share/keyrings/nodesource.gpg
+RUN echo "deb [signed-by=/usr/share/keyrings/nodesource.gpg] https://deb.nodesource.com/node_20.x nodistro main" > /etc/apt/sources.list.d/nodesource.list
+RUN curl -fsSL https://dl.yarnpkg.com/debian/pubkey.gpg | gpg --dearmor -o /usr/share/keyrings/yarnkey.gpg
+RUN echo "deb [signed-by=/usr/share/keyrings/yarnkey.gpg] https://dl.yarnpkg.com/debian stable main" > /etc/apt/sources.list.d/yarn.list
 
 # Install necessary packages to build gems and assets.
 RUN apt-get update && \
   apt-get install -y --no-install-recommends \
   nodejs \
-  yarn
+  yarn && \
+  rm -rf /var/lib/apt/lists/*
 
 # Install gems into the vendor/bundle directory in the workspace.
 COPY Gemfile Gemfile.lock /app/
@@ -51,6 +55,7 @@ WORKDIR /app
 RUN apt-get update && \
   apt-get install -y --no-install-recommends \
   libpq-dev \
+  libsqlite3-0 \
   curl && \
   rm -rf /var/lib/apt/lists/*
 
