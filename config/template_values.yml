@@ -16,29 +16,29 @@ Creativity:
   contract_deadline: "Sunday, March 22, 2026"
   schedule: ["Sunday, March 8, 2026: Submissions Due",
              "Sunday, March 22, 2026: Signed Contracts Due",
-             "Sunday, March 27, 2026: First check cut and sent",
+             "Sunday, March 29, 2026: First check cut and sent",
              "Tuesday, June 30 - Sunday, July 5, 2026: Firefly!",
              "Friday, July 24, 2026: Firefly documentation due",
-             "Friday, July 30, 2026: Second check cut and sent"]
+             "Friday, July 31, 2026: Second check cut and sent"]
 Creativity Round 2:
   contract_deadline: "Sunday, April 26, 2026"
   schedule: ["Sunday, April 12, 2026: Submissions Due",
              "Sunday, April 26, 2026: Signed Contracts Due",
-             "Sunday, May 22, 2026: First check cut and sent",
+             "Sunday, May 24, 2026: First check cut and sent",
              "Tuesday, June 30 - Sunday, July 5, 2026: Firefly!",
              "Friday, July 24, 2026: Firefly documentation due",
-             "Friday, July 30, 2026: Second check cut and sent"]
+             "Friday, July 31, 2026: Second check cut and sent"]
 Legacy:
   contract_deadline: "Sunday, May 17, 2026"
   schedule: ["Sunday, May 3, 2026: Submissions Due",
              "Sunday, May 17, 2026: Signed Contracts Due",
-             "Sunday, May 25, 2026: Check cut and sent",
+             "Sunday, May 24, 2026: Check cut and sent",
              "Tuesday, June 30 - Sunday, July 5, 2026: Firefly!"]
 Burner Exchange:
-  contract_deadline: "Sunday, May 18, 2026"
+  contract_deadline: "Sunday, May 17, 2026"
   schedule: ["Sunday, May 3, 2026: Submissions Due",
              "Sunday, May 17, 2026: Signed Contracts Due",
-             "Sunday, May 25, 2026: Check cut and sent",
+             "Sunday, May 24, 2026: Check cut and sent",
              "Tuesday, June 30 - Sunday, July 5, 2026: Firefly!"]
 Moonshot (disabled):
   contract_deadline: "10 days after notification of Grant"
@@ -51,9 +51,9 @@ Skillshare (disabled):
              "Tuesday, June 30 - Sunday, July 5, 2026: Firefly!"]
 TEST GRANT:
   contract_deadline: "Sunday, March 26, 2026"
-  schedule: ["Sunday, March 5, 2026: Submissions Due",
-             "Sunday, March 26, 2026: Signed Contracts Due",
-             "Sunday, April 2, 2026: First check cut and sent",
+  schedule: ["Sunday, March 8, 2026: Submissions Due",
+             "Sunday, March 29, 2026: Signed Contracts Due",
+             "Sunday, April 5, 2026: First check cut and sent",
              "Tuesday, June 30 - Sunday, July 5, 2026: Firefly!",
              "Friday, July 24, 2026: Firefly documentation due",
-             "Friday, Aug 4, 2026: Second check cut and sent"]
+             "Friday, Aug 7, 2026: Second check cut and sent"]
