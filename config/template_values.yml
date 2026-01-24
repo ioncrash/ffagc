@@ -8,7 +8,7 @@ install_day: "Friday, July 3, 2026"
 skill_attend_day: "Monday, June 30, 2026"
 Temple:
   contract_deadline: "Sunday, March 8, 2026"
-  schedule: ["Sunday, Feb 15, 2026: Submissions Due",
+  schedule: ["Sunday, Feb 22, 2026: Submissions Due",
              "Sunday, March 8, 2026: Signed Contracts Due",
              "Friday, March 20, 2026: Check cut and sent",
              "Tuesday, June 30 - Sunday, July 5, 2026: Firefly!"]
