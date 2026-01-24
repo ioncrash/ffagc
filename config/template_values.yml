@@ -5,7 +5,7 @@
 # behind the formatted text, don't put it here.
 
 install_day: "Friday, July 3, 2026"
-skill_attend_day: "Monday, June 30, 2026"
+skill_attend_day: "Tuesday, June 30, 2026"
 Temple:
   contract_deadline: "Sunday, March 8, 2026"
   schedule: ["Sunday, Feb 22, 2026: Submissions Due",
